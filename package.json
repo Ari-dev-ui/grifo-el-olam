@@ -1,0 +1,15 @@
+{
+  "name": "grifo-el-olam-ui-tests",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "test": "python tests/export_ui_fixture.py && node tests/ui_dom.cjs && node tests/a11y_dom.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "31.0.1",
+    "axe-core": "4.14.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

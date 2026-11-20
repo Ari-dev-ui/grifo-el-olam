@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+instance/
+olam/instance/
+.env
+*.db
+*.key
+*.bundle
+node_modules/
+tests/.fixtures/
